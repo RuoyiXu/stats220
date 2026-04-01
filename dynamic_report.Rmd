@@ -1,0 +1,82 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+```
+
+## Tracking My Phone Entertainment Habits
+
+```{r}
+library(tidyverse)
+
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTd4RWFHtT-Nv3ncuh5V9wjgXJOOyWrOIiHYnBvaNGIxcTW2OC9OXl_iE1dVt44rH5kHtkeBw_GXnP7/pub?output=csv")
+
+latest_data <- logged_data %>%
+  rename(
+    minutes = `How many minutes did I spend on phone entertainment?`,
+    activity = `What was my main activity?`,
+    mood = `What was my mood at that time?`
+  )
+
+mean_minutes <- mean(latest_data$minutes)
+max_minutes <- max(latest_data$minutes)
+
+```
+  
+This report tracks my phone entertainment habits.
+
+The average time spent on phone entertainment is `r round(mean_minutes, 1)` minutes.
+
+The maximum time spent on phone entertainment is `r max_minutes` minutes.
+
+```{r}
+ggplot(latest_data, aes(x = activity)) +
+  geom_bar()
+
+ggplot(latest_data, aes(x = mood)) +
+  geom_bar()
+```
+
+```{r}
+library(tidyverse)
+
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTd4RWFHtT-Nv3ncuh5V9wjgXJOOyWrOIiHYnBvaNGIxcTW2OC9OXl_iE1dVt44rH5kHtkeBw_GXnP7/pub?output=csv")
+
+latest_data <- logged_data %>%
+  rename(
+    minutes = `How many minutes did I spend on phone entertainment?`,
+    activity = `What was my main activity?`,
+    mood = `What was my mood at that time?`
+  )
+
+mean_minutes <- mean(latest_data$minutes)
+max_minutes <- max(latest_data$minutes)
+```
+
+This report tracks my phone entertainment habits over time.
+
+The average time spent on phone entertainment is `r round(mean_minutes, 1)` minutes.
+
+The maximum time spent on phone entertainment is `r max_minutes` minutes.
+
+```{r}
+ggplot(latest_data, aes(x = activity)) +
+  geom_bar() +
+  labs(
+    title = "Main phone entertainment activity",
+    x = "Activity",
+    y = "Count"
+  )
+
+```
+
+```{r}
+ggplot(latest_data, aes(x = mood)) +
+  geom_bar() +
+  labs(
+    title = "Mood during phone entertainment",
+    x = "Mood",
+    y = "Count"
+  )
