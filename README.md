@@ -1,11 +1,27 @@
 # stats220
 
-This is my repo for STATS 220. 
+This is my repo for **STATS 220**.
 
-A little about me:
+## A little about me
 
-- I am undertaking a degree in Computer Science.
-- I am taking STATS 220 because I want to learn data technologies and improve my coding skills.
-- I am interested in learning about data analysis and web development.
+I am *currently* studying Computer Science.
 
-A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
+### Why I take this course
+
+- I want to learn data technologies  
+- I want to improve coding skills  
+
+1. Learn R  
+2. Learn HTML  
+3. Build projects  
+
+## Useful link
+
+Check this website:  
+[STATS 220 course page](https://courseoutline.auckland.ac.nz/)
+
+## Meme
+
+A meme that captures how I feel:
+
+![](your_gif.gif)
