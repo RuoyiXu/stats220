@@ -24,4 +24,4 @@ Check this website:
 
 A meme that captures how I feel:
 
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGoxOG5kNnZycHNvNWlhaWkydWU3dW5paWllcnBzbnliZXpsb3Q2ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODhPDkDrVb7SxDFpZN/giphy.gif）
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjExOG5kNnZycHNvNnJ1aWkycWU3dW5pYWllcWk3d3BsaW1zZ3ZsZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ODhPDkDrVb7SxDFpZN/giphy.gif)
