@@ -18,7 +18,7 @@ I am *currently* studying Computer Science.
 ## Useful link
 
 Check this website:  
-[STATS 220 course page]([https://courseoutline.auckland.ac.nz/](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20220))
+[STATS 220 course page](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20220)
 
 ## Meme
 
