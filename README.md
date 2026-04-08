@@ -18,10 +18,10 @@ I am *currently* studying Computer Science.
 ## Useful link
 
 Check this website:  
-[STATS 220 course page](https://courseoutline.auckland.ac.nz/)
+[STATS 220 course page]([https://courseoutline.auckland.ac.nz/](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=STATS%20220))
 
 ## Meme
 
 A meme that captures how I feel:
 
-![](your_gif.gif)
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGoxOG5kNnZycHNvNWlhaWkydWU3dW5paWllcnBzbnliZXpsb3Q2ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODhPDkDrVb7SxDFpZN/giphy.gif）
